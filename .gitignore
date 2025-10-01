@@ -9,3 +9,7 @@ wheels/
 # Virtual environments
 .venv
 .direnv/
+
+# Output Dirs
+outputs/
+output/
