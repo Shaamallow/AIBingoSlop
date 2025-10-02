@@ -22,8 +22,8 @@
           packages = with pkgs; [
             python312
             uv
+            taplo
             python312Packages.pip
-            python312Packages.ruff
           ];
 
           shellHook = ''
