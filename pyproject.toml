@@ -18,10 +18,7 @@ packages = ["aibingoslop"]
 [tool.ruff.format]
 
 [dependency-groups]
-dev = [
-    "pyright>=1.1.405",
-    "ruff>=0.13.2",
-]
+dev = ["pyright>=1.1.405", "ruff>=0.13.2"]
 
 [project.scripts]
 aibingoslop = "aibingoslop.cli:app"
